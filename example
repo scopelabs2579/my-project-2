@@ -1,0 +1,9 @@
+def get_average(numbers):
+    total = 0
+    for i in range(1, len(numbers)):
+        total += numbers[i]
+    return total / len(numbers)
+
+data = [10, 20, 30, 40, 50]
+avg = get_average(data)
+print("평균은:", avg)
