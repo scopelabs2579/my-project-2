@@ -1,7 +1,7 @@
 def get_average(numbers):
     total = 0
-    for i in range(1, len(numbers)):
-        total += numbers[i]
+    for num in numbers:
+        total += num
     return total / len(numbers)
 
 data = [10, 20, 30, 40, 50]
